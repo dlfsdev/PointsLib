@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Code Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BruteForceTspSolver.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosestPairFinder.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPointsAlgorithm.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPointsAlgorithmObserver.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nullable.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverSet.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsAlgorithmObservers.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickHullSolver.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunObserverableAlgorithm.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdUtil.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtil.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KMeansSolver.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IKMeansInitialMeansStrategy.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ForgyKMeansInitialMeansStrategy.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusPlusKMeansInitialMeansStrategy.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomPartitionKMeansInitialMeansStrategy.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointExtensions.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KMeansHelpers.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickHullSolver.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForceTspSolver.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsAlgorithmObservers.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPointsAlgorithmObserver.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosestPairFinder.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KMeansSolver.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ForgyKMeansInitialMeansStrategy.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusPlusKMeansInitialMeansStrategy.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomPartitionKMeansInitialMeansStrategy.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointExtensions.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KMeansHelpers.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
