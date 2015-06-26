@@ -310,6 +310,8 @@ namespace PointsLibUi
             await PositionProgressPanelsAsync();
         }
 
+        // This sliding stuff is awful, but it also works (well enough)
+        // Maybe someday I'll make it less awful
         bool _positioning = false;
         private async Task PositionProgressPanelsAsync()
         {
