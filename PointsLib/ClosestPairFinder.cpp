@@ -28,9 +28,6 @@ namespace
         typedef std::vector<Point>::iterator PointIt;
         typedef std::vector<Point>::const_iterator PointConstIt;
 
-        int totalSteps;
-        int stepsPerformed;
-
         struct ClosePair
         {
             ClosePair(const Point& p1, const Point& p2, double distance_)
@@ -49,8 +46,6 @@ namespace
     public:
         ClosestPairFinderImpl()
             : ClosestPairFinder()
-            , totalSteps(0)
-            , stepsPerformed(0)
         {
         }
 

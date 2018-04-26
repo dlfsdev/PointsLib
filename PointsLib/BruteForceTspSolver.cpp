@@ -45,8 +45,8 @@ std::vector<size_t> GetPermutationNumber(int n, uint64_t permutationNumber)
     }
 
     for (int i = n - 1; i > 0; --i)
-        for (int j = i - 1; j >= 0; --j)
-            if (permutation[j] <= permutation[i])
+        for (int j2 = i - 1; j2 >= 0; --j2)
+            if (permutation[j2] <= permutation[i])
                 permutation[i]++;
 
     return permutation;
@@ -254,8 +254,8 @@ private:
         {
             SubSolver solver([=, &progressAggregator](const TspProgress& progress) { progressAggregator.OnProgress(i, progress); });
             std::vector<Point> startPermutation = GetPermutationNumber(points, i * permutationsPerThread);
-            uint64_t numPermutations = i == numThreads - 1 ? permutationsForLastThread : permutationsPerThread;
-            threads.emplace_back([=]() { try { solver.Solve(startPermutation, numPermutations); } catch(...) {} }); // TODO: Get that exception
+            uint64_t numPermutationsThisThread = i == numThreads - 1 ? permutationsForLastThread : permutationsPerThread;
+            threads.emplace_back([=]() { try { solver.Solve(startPermutation, numPermutationsThisThread); } catch(...) {} }); // TODO: Get that exception
         }
 
         for(auto& thread : threads)
